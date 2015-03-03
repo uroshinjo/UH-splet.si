@@ -1,0 +1,141 @@
+body{
+background-color:#f2f2f2;
+padding:0px;
+margin:0px;
+font-family: 'Open Sans', sans-serif;
+}
+
+#okvir{
+width:1000px;
+margin:0 auto;
+
+}
+
+#glava{
+height:80px;
+background-color:#272d44;
+width:1000px;
+}
+
+#logo{
+background-color:#b93a41;
+width:230px;
+height:120px;
+float:left;
+background-image: url("slike/logo.png");
+}
+#meni{
+width:500px;
+height:80px;
+float:right;
+}
+#meni a{
+line-height:80px;
+color:#f2f2f2;
+text-decoration:none;
+font-size:14px;
+padding-left:15px;
+padding-right:15px;
+padding-bottom:5px;
+font-weight:800px;
+}
+#meni a:hover{
+border-bottom:1px solid #ffffff;
+color:#ffffff;
+}
+
+#slika{
+width:1000px;
+height:400px;
+background-image: url("slike/2.png");
+}
+
+#sredina{
+border-left:1px solid #eaeaea;
+border-right:1px solid #eaeaea;
+width:998px;
+height:380px;
+padding-top:70px;
+}
+
+.sredina_okvir{
+position:relative;
+width:300px;
+height:350px;
+margin-left:23px;
+float:left;
+background-color:#FFFFFF;
+}
+.sredina_okvir h3{
+color:#272d44;
+font-size:16px;
+width:300px;
+text-align: center;
+}
+
+.sredina_okvir p{
+color:#4c5060;
+font-size:14px;
+width:260px;
+margin:0 auto;
+text-align: center;
+}
+.rd_krog{
+margin:0 auto;
+width:100px;
+height:100px;
+background-color:#b93a41;
+margin-top:-50px;
+border-radius:50px;
+}
+.rd_krog img{
+margin-top:15px;
+}
+#sredina2{
+background-color:#FFFFFF;
+width:900px;
+height:350px;
+padding-top:40px;
+padding:50px;
+}
+
+#sredina2 h3{
+color:#272d44;
+}
+
+#sredina2_l{
+width:450px;
+float:left;
+}
+#sredina2_d{
+width:450px;
+float:left;
+}
+
+
+#noga{
+height:50px;
+background-color:#272d44;
+width:1000px;
+}
+
+#noga p{
+line-height:50px;
+color:#b93a41;
+font-size:12px;
+padding-left:50px;
+}
+
+.gumb{
+position:absolute;
+width:280px;
+background-color:#272d44;
+color:#FFFFFF;
+cursor:pointer;
+padding:10px;
+text-align:center;
+bottom:0px;
+}
+.gumb:hover{
+background-color:#b93a41;
+}
